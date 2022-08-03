@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(208 200 200 / 9%);
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    padding: 20px 100px;
+
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.main .container {
+    font-size: 1.4em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main .image {
+    padding: 30px;
+}
+
+.main .image img {
+    width: 100%;
+}
+
+.secound {
+    padding: 20px 100px;
+    font-size: 1.4em;
+}
+
+.secound h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.secound .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+}
+
+.secound .image {
+    padding: 20px;
+}
+
+.secound .image img {
+    width: 100%;
+}
+
+.table1 {
+    padding: 20px 100px;
+    font-size: 1.5em;
+}
+
+.table1 table {
+    width: 100%;
+    border: 1px black solid;
+    background-color: #eee;
+}
+
+.table1 table tbody tr {
+    text-align: center;
+}
+
+.table1 table tbody tr td {
+    border: 1px black solid;
+}
+
+.image2 {
+    padding: 20px 100px;
+}
+
+.image2 img {
+    width: 100%;
+
+}
+
+.shop {
+    padding: 20px 100px;
+    font-size: 1.4em;
+}
+
+.shop a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 0.6s ease;
+}
+
+.shop a:hover {
+    transform: scale(1.1);
+}
+
+.vid {
+    padding: 20px 100px;
+}
+
+.vid video {
+    width: 100%;
+}
+
+.pages {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pages div {
+    margin: 0 10px;
+}
+
+.pages a {
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(28, 24, 54);
+    color: #fff;
+    transition: 0.6s ease;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.pages a:hover {
+    transform: scale(1.1);
+}

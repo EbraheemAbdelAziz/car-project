@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: papayawhip;
+}
+
+.first {
+    padding: 20px 100px;
+}
+
+.first h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+.first .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    padding-top: 50px;
+}
+
+.paragraph1 {
+    font-size: 1.5em;
+    padding: 20px;
+
+}
+
+.img1 {
+    padding: 10px;
+}
+
+.img1 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.secound {
+    background-color: rgb(28, 24, 54);
+    color: white;
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+
+}
+
+.secound .design,
+.secound .drive {
+    width: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.secound h3,
+.third h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;
+}
+
+.paragraph {
+    font-size: 1.3em;
+    text-align: center;
+
+}
+
+.third {
+    padding: 20px 100px;
+}
+
+.third .paragraph {
+    width: 70%;
+    margin: 50px auto;
+    font-size: 1.5em;
+}
+
+.imges {
+    width: 100%;
+}
+
+.imges img {
+    margin: 10px 5%;
+    width: 90%;
+}
+
+.vid {
+    width: 100%;
+    background-color: rgb(28, 24, 54);
+}
+
+.vid video {
+    width: 70%;
+    margin: 100px 15%;
+}
+
+.pages {
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pages div {
+    margin: 0 10px;
+}
+
+.pages a {
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(28, 24, 54);
+    color: #fff;
+    transition: 0.6s ease;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.pages a:hover {
+    transform: scale(1.1);
+}
